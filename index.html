@@ -6,6 +6,13 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <style>
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -38,41 +45,44 @@
                 <p> Founded in 2020, we have grown into a trust partner for small to medium sized businesses.</p>
             </div>
             <div class="col-md-4">
-                <h2>Sidebar</h2>
-                <p>If you sign up for two services in the next week, you're eliglibe for a 20% discount!</p>
-                <p>If you sign up for three services in the next week, you're eliglibe for a 30% discount!</p> <p>Take advantage now and don't let this deal pass you by!</p>
-                <img src="/images/sale.jpg" alt="Discount" class="img-fluid" style="width:300px; height:200px">
+                <div class="sidebar">
+                    <h2>Sidebar</h2>
+                    <p>If you sign up for two services in the next week, you're eliglibe for a 20% discount!</p>
+                    <p>If you sign up for three services in the next week, you're eliglibe for a 30% discount!</p> <p>Take advantage now and don't let this deal pass you by!</p>
+                    <img src="/images/sale.jpg" alt="Discount" class="img-fluid" style="width:100%; height:auto">
+                </div>
             </div>
         </div>
-        </div class="row">
-            <div class="col-6" style="text-left">
-                <h2>Contact Us</h2>
-                <form>
-                    <div class="mb-3 form-text">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="mb-2">
-                      <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="email">
-                    </div>
-                    <label for="services" class="form-label">Choose service(s)</label>
-                    <div class="mb-3">
-                        <select class="form-select" multiple>
-                            <option selected></option>
-                            <option value="1">Cyber Security</option>
-                            <option value="2">Hardware</option>
-                            <option value="3">Network</option>
-                        </select>
-                    </div>
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" style="height:140px;"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary mt-5">Submit</button>
-                </form>
-            </div>
-        </div>    
-         
+        <div class="container mt-5">
+            </div class="row">
+                <div class="col-6" style="text-left">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="mb-3 form-text">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-2">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                        </div>
+                        <label for="services" class="form-label">Choose service(s)</label>
+                        <div class="mb-3">
+                            <select class="form-select" multiple>
+                                <option selected></option>
+                                <option value="1">Cyber Security</option>
+                                <option value="2">Hardware</option>
+                                <option value="3">Network</option>
+                            </select>
+                        </div>
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" style="height:140px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-5">Submit</button>
+                    </form>
+                </div>
+            </div>    
+        </div>  
     </div>
 </body>
 </html>
