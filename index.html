@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center mb-5">   
+                <h1>Tech Solutions</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Cyber Security</h2>
+                <img src="/images/cyber_security.jpg" alt="Cyber Security" class="img" style="width:400px;height:200px">
+                <p> Our cyber security services provide protection for digital assets and infrastructure from cyber threats through solutions such as threat detection, incident response, and risk management.</p>
+            </div>
+            <div class="col">
+                <h2>Hardware</h2>
+                <img src="/images/hardware.jpg" alt="Hardware" class="img-fluid" style="height:300px; width:250px">
+                <p>Our hardware services encompass the procurement, installation, maintenance, and repair of physical computer components and devices, ensuring optimal performance and longevity.</p>
+            </div>
+            <div class="col">
+                <h2>Network</h2>
+                <img src="/images/network.jpg" alt="Network" class="img" style="width:300px;height:200px">
+                <p>Our network services involve the design, implementation, management, and support of network infrastructure to ensure reliable and secure connectivity and data exchange across various devices and locations.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <h2>About Us</h2>
+                <p>Tech Solutions is a leading provider of IT services dedicate to delivering innovative an reliable solution to our clients.</p>
+                <p> Founded in 2020, we have grown into a trust partner for small to medium sized businesses.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Sidebar</h2>
+                <p>If you sign up for two services in the next week, you're eliglibe for a 20% discount!</p>
+                <p>If you sign up for three services in the next week, you're eliglibe for a 30% discount!</p> <p>Take advantage now and don't let this deal pass you by!</p>
+                <img src="/images/sale.jpg" alt="Discount" class="img" style="width:300px; height:200px">
+            </div>
+        </div class="row">
+            <div class="col-6" style="text-left">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="mb-3 form-text">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                    <div class="mb-2">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <label for="services" class="form-label">Choose service(s)</label>
+                    <div class="mb-3">
+                        <select class="form-select" multiple>
+                            <option selected></option>
+                            <option value="1">Cyber Security</option>
+                            <option value="2">Hardware</option>
+                            <option value="3">Network</option>
+                        </select>
+                    </div>
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" style="height:140px;"></textarea>
+                    </div>
+        
+                    <button type="submit" class="btn btn-primary mt-5">Submit</button>
+                </form>
+            </div>
+        </div>    
+         
+    </div>
+</body>
+</html>
